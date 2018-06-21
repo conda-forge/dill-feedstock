@@ -14,14 +14,16 @@ Summary: A utility for serialization of python objects.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dill-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dill-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/dill-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dill-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dill-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dill-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/dill-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/dill-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/dill-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/dill-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/dill-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/dill-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dill/badges/version.svg)](https://anaconda.org/conda-forge/dill)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dill/badges/downloads.svg)](https://anaconda.org/conda-forge/dill)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dill-green.svg)](https://anaconda.org/conda-forge/dill) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dill.svg)](https://anaconda.org/conda-forge/dill) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dill.svg)](https://anaconda.org/conda-forge/dill) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dill.svg)](https://anaconda.org/conda-forge/dill) |
 
 Installing dill
 ===============
