@@ -18,7 +18,7 @@ requirements:
         - pip
     run:
         - python
-        - pyreadline  # [win]
+        - pyreadline >=1.7.1  # [win]
 
 test:
     imports:
