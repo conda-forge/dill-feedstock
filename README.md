@@ -3,7 +3,7 @@ About dill
 
 Home: http://www.cacr.caltech.edu/~mmckerns/dill.htm
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -23,13 +23,6 @@ Current build status
     <td>
       <a href="https://travis-ci.org/conda-forge/dill-feedstock">
         <img alt="macOS" src="https://img.shields.io/travis/conda-forge/dill-feedstock/master.svg?label=macOS">
-      </a>
-    </td>
-  </tr><tr>
-    <td>Appveyor</td>
-    <td>
-      <a href="https://ci.appveyor.com/project/conda-forge/dill-feedstock/branch/master">
-        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/dill-feedstock/master.svg?label=Windows">
       </a>
     </td>
   </tr>
@@ -251,5 +244,4 @@ Feedstock Maintainers
 =====================
 
 * [@ocefpaf](https://github.com/ocefpaf/)
-* [@tupui](https://github.com/tupui/)
 
