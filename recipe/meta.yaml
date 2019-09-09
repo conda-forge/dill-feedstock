@@ -9,8 +9,8 @@ source:
     sha256: 993409439ebf7f7902d9de93eaa2a395e0446ff773d29f13dc46646482f76906
 
 build:
-    number: 1
-    script: python -m pip install --no-deps --ignore-installed .
+    number: 2
+    script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
     host:
@@ -26,7 +26,7 @@ test:
 
 about:
     home: http://www.cacr.caltech.edu/~mmckerns/dill.htm
-    license: BSD 3-Clause
+    license: BSD-3-Clause
     license_family: BSD
     license_file: LICENSE
     summary: Serialize all of python (almost)
@@ -41,4 +41,3 @@ about:
 extra:
     recipe-maintainers:
         - ocefpaf
-        - tupui
