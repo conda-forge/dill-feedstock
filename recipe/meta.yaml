@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1.1" %}
 
 package:
     name: dill
@@ -6,10 +6,10 @@ package:
 
 source:
     url: https://pypi.io/packages/source/d/dill/dill-{{ version }}.tar.gz
-    sha256: 993409439ebf7f7902d9de93eaa2a395e0446ff773d29f13dc46646482f76906
+    sha256: 42d8ef819367516592a825746a18073ced42ca169ab1f5f4044134703e7a049c
 
 build:
-    number: 2
+    number: 0
     script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
