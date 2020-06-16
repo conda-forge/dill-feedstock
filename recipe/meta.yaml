@@ -10,7 +10,8 @@ source:
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -18,11 +19,14 @@ requirements:
     - pip
   run:
     - python
-    - pyreadline >=1.7.1  # [win]
 
 test:
   imports:
     - dill
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: http://www.cacr.caltech.edu/~mmckerns/dill.htm
