@@ -1,16 +1,17 @@
-{% set version = "0.3.1.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: dill
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/d/dill/dill-{{ version }}.tar.gz
-  sha256: 42d8ef819367516592a825746a18073ced42ca169ab1f5f4044134703e7a049c
+  url: https://pypi.io/packages/source/d/dill/dill-{{ version }}.zip
+  sha256: 6e12da0d8e49c220e8d6e97ee8882002e624f1160289ce85ec2cc0a5246b3a2e
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -18,11 +19,14 @@ requirements:
     - pip
   run:
     - python
-    - pyreadline >=1.7.1  # [win]
 
 test:
   imports:
     - dill
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: http://www.cacr.caltech.edu/~mmckerns/dill.htm
