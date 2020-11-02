@@ -5,9 +5,13 @@ Home: http://www.cacr.caltech.edu/~mmckerns/dill.htm
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dill-feedstock/blob/master/LICENSE.txt)
 
 Summary: Serialize all of python (almost)
+
+Development: https://github.com/uqfoundation/dill
+
+Documentation: http://trac.mystic.cacr.caltech.edu/project/pathos/wiki/dill.html
 
 Dill extends Python's 'pickle' module for serializing and
 de-serializing Python objects to he majority of the built-in python
