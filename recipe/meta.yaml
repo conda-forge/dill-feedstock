@@ -9,20 +9,24 @@ source:
   sha256: 42d8ef819367516592a825746a18073ced42ca169ab1f5f4044134703e7a049c
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 2
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
-    - pyreadline >=1.7.1  # [win]
+    - python >=3.5
 
 test:
   imports:
     - dill
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: http://www.cacr.caltech.edu/~mmckerns/dill.htm
@@ -41,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - ocefpaf
+    - xylar
