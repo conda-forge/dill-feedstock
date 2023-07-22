@@ -1,11 +1,11 @@
-About dill
-==========
+About dill-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dill-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.cacr.caltech.edu/~mmckerns/dill.htm
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dill-feedstock/blob/main/LICENSE.txt)
 
 Summary: Serialize all of python (almost)
 
