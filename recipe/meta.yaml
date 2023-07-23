@@ -1,15 +1,16 @@
-{% set version = "0.3.6" %}
+{% set name = "dill" %}
+{% set version = "0.3.7" %}
 
 package:
   name: dill
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/d/dill/dill-{{ version }}.tar.gz
-  sha256: e5db55f3687856d8fbdab002ed78544e1c4559a130302693d839dfe8f93f2373
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dill-{{ version }}.tar.gz
+  sha256: cc1c8b182eb3013e24bd475ff2e9295af86c1a38eb1aff128dac8962a9ce3c03
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -29,17 +30,16 @@ test:
     - pip
 
 about:
-  home: http://www.cacr.caltech.edu/~mmckerns/dill.htm
+  home: https://github.com/uqfoundation/dill
+  summary: serialize all of Python
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: Serialize all of python (almost)
   description: |
-    Dill extends Python's 'pickle' module for serializing and
-    de-serializing Python objects to he majority of the built-in python
-    types.
+    `dill` extends Python's `pickle` module for serializing and
+    de-serializing Python objects to the majority of the built-in
+    Python types.
   doc_url: http://trac.mystic.cacr.caltech.edu/project/pathos/wiki/dill.html
-  doc_source_url: https://github.com/uqfoundation/dill/blob/master/README.md
   dev_url: https://github.com/uqfoundation/dill
 
 extra:
