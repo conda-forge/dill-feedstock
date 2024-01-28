@@ -3,19 +3,19 @@ About dill-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dill-feedstock/blob/main/LICENSE.txt)
 
-Home: http://www.cacr.caltech.edu/~mmckerns/dill.htm
+Home: https://github.com/uqfoundation/dill
 
 Package license: BSD-3-Clause
 
-Summary: Serialize all of python (almost)
+Summary: serialize all of Python
 
 Development: https://github.com/uqfoundation/dill
 
 Documentation: http://trac.mystic.cacr.caltech.edu/project/pathos/wiki/dill.html
 
-Dill extends Python's 'pickle' module for serializing and
-de-serializing Python objects to he majority of the built-in python
-types.
+`dill` extends Python's `pickle` module for serializing and
+de-serializing Python objects to the majority of the built-in
+Python types.
 
 
 Current build status
@@ -104,7 +104,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
